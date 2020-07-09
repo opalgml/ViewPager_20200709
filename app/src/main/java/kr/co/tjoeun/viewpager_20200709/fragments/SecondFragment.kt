@@ -9,7 +9,6 @@ import androidx.fragment.app.Fragment
 import kotlinx.android.synthetic.main.fragment_first.*
 import kotlinx.android.synthetic.main.fragment_first.welcomeMessageTxt
 import kotlinx.android.synthetic.main.fragment_second.*
-import kr.co.tjoeun.fragment_20200709.R
 import kr.co.tjoeun.viewpager_20200709.R
 
 class SecondFragment : Fragment()  {
