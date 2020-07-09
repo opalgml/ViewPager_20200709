@@ -1,0 +1,23 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout
+    xmlns:android="http://schemas.android.com/apk/res/android" android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    android:gravity="center"
+    android:background="#FF0000">
+
+    <TextView
+        android:id="@+id/welcomeMessageTxt"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="여기는 첫번째 프래그먼트 입니다."
+        android:textColor="#FFFFFF"
+        android:textSize="20sp" />
+
+    <Button
+        android:id="@+id/changeMessageBtn"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="환영 문구 바꾸기" />
+
+</LinearLayout>
